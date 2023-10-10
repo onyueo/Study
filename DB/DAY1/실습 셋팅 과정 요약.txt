@@ -1,0 +1,67 @@
+1. dbproblem 폴더 안에서 git bash 열어서 명령어 입력 -> vscode에서 새창 열림
+code ~/.bashrc
+
+
+sqlite 가 안깔려있고 vscode에서 extension으로 사용하고 있는 중이기 때문에
+vscode에 상관없이 직접 db에 select할 수 있는 프로그램 설치 필요
+
+2. sqlite 검색 후 - 다운로드 - SQLite 다운로드(윈도우 sqlite-tools-win32-x86-3430100.zip)
+ -> A bundle of command-line tools for managing SQLite database files, including the command-line shell program, the sqldiff.exe program, and the sqlite3_analyzer.exe program. 32-bit.
+
+
+3. 폴더명을 sqlite로 바꾼 후 C로 옮긴 후 파일 변경
+내 pc - 속성(내pc 안의 시스템 속성) - 고급시스템 설정 - 환경변수 - 시스템변수 - path - 새로만들기 - C:\sqlite 추가하기
+
+
+4. cmd - sqlite3 입력하면
+C:\Users\SSAFY>sqlite3
+SQLite version 3.43.1 2023-09-11 12:01:27
+Enter ".help" for usage hints.
+Connected to a transient in-memory database.
+Use ".open FILENAME" to reopen on a persistent database.
+sqlite>
+
+이명령어 나오면 성공!
+
+
+5. 새로 만든 파일(.bashrc) 안에 명령어 입력 후 저장
+alias sqlite3="winpty sqlite3"
+
+
+6. sqlite3 database.sqlite3 터미널에 입력 : 같은 폴더안에 해당이름의 파일이 있으면 열고 없으면 만듦
+SSAFY@DESKTOP-MDJG1NJ MINGW64 ~/Desktop/OnYu_study/Daily_class/DB실습/db_ws_1_1/dbproblem (master)
+
+
+$ sqlite3 database.sqlite3
+SQLite version 3.43.1 2023-09-11 12:01:27
+Enter ".help" for usage hints.
+sqlite>
+
+이 나오면 성공!
+
+
+7. 터미널 data 보기
+.mode csv    : csv 파일을 가져올 준비
+.import ../users.csv users      : 이 테이블들을 모두 가져오라는 명령어
+.header on      : 예쁘게 나옴
+.mode column
+
+select * from users ;
+( 세미콜론 중요! )
+
+
+.tables     : 있는 테이블 확인하기!! 딱히 필요 없음(git 의 log같은 느낌)
+
+
+8. setting 에서 sqlite검색 후 맨 아래쪽 sqlite3 에서 3만 지워서 sqlite 로 바꿔주기
+
+9. database.sqlite3 db열기 -> open database 해서 테이블 보기
+
+
+10. sql 실습
+- 강의 자료 보면서 해보기 (create table / drop tavle / update / .. 등)
+
+
+
+** 모르겠으면 sqlite3 batabase.sqlite3 입력 후 .help 검색!
+** 끝내기 == .q
