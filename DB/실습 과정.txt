@@ -1,0 +1,65 @@
+
+1. git bash에서 가상환경 만들기
+python -m venv venv
+
+2. 가상환경 활성화 
+source venv/Scripts/activate
+
+3. 패키지 설치하기 
+pip install -r requirements.txt  or  pip install Django
+
+4. 프로젝트 생성하기 
+django-admin startproject 프로젝트이름 .
+
+5. 앱 생성하기 
+python manage.py startapp 앱이름
+
+6. 앱등록하기
+settings에서 install_apps의 맨 처음에 앱이름 넣어주기
+
+
+- models 에서 글작성? class 만들기
+- forms에 유효성검사를 위한 class 만들고 models class 상속받기
+- url - view - templates/html 순으로 작성하기
+
+
+셋팅 auth 추가
+
+accounts- 모델 user
+스토어 - 모델 - class + 외래키 참조
+이후 마이그래이션 진행
+스토어 어드민 등록 - from .model import 클래스 + admin.site.register(클래스)
+accounts 어드민 등록 - 어드민은 from django.contrib.auth.admin import UserAdmin
+ 추가로 등록해주어야할 것이 있음!! admin.site.register(User, UserAdmin)
+
+createsuperuser 에서 유저등록 후 runserver
+
+url 분리 -> 각 앱에 urls.py 만들고 프로젝트에 include - 각 앱에 app_name + urlpatterns 추가
+view 함수 만들어주기
+템플릿/앱/ html 만들어주기
+
+뷰함수 - 인덱스 , 디테일 / 어카운트 - 로그인(이미 from django.contrib.auth.forms import AuthenticationForm
+에 만들어져 있음)
+
+
+
+
+
+
+
+- runserver 실행전
+1. model class를 기반으로 최종 설계도(migration)작성
+python manage.py makemigrations
+
+2. 최종 설계도를 DB에 전달하여 반영
+python manage.py migrate
+
+선택 - admin
+python manage.py createsuperuser
+
+장고 서버 실행
+python manage.py runserver
+
+
+
+
