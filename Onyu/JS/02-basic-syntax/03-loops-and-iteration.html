@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+
+    // while
+    let i = 0
+    while( i < 6 ) {
+      console.log(i)
+      i += 1
+    }
+
+    // for
+    for (let i = 0; i < 6; i++) {
+      console.log(i)
+    }
+
+    // for..in
+    const fruits = {
+      a: 'apple',
+      b: 'banana'
+    }
+
+    for (const property in fruits) {
+      console.log(property)   // a, b (속성이나옴 //파이썬-keyvalue)
+      console.log(fruits[property]) // apple, banana
+    }
+
+    // for ..of
+    const numbers = [3, 2, 1, 0]
+
+    for (const number of numbers) (
+      console.log(number)   // 3, 2, 1, 0
+    )
+
+
+    const numbers2 = ['a', 'b', 'c', 'd']
+    for (const number in numbers2) {
+      console.log(number)   // 0, 1, 2, 3
+    }
+
+    const numbers2 = ['a', 'b', 'c', 'd']
+    for (const number of numbers2) {
+      console.log(number)   // a, b, c, d
+    }
+
+
+  </script>
+</body>
+
+</html>
