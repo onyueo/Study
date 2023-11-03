@@ -46,3 +46,32 @@ md 미리보기 : ctrl + shift + v
   - textContent
 
 
+
+
+-----
+# 10.25 함수, 객체
+
+참조 자료형 ( Objects = Object, Array, Function )
+  - 객제의 주소가 저장되는 자료형(가변, 주소가 복사)
+
+함수는 return값이 없으면 undefined를 반환
+
+함수정의방법 2가지
+1. 선언식 : function 이라고 먼저 선언 후 시작!
+2. 표현식 : const로 일름부터 정의하고 함수라고 알려줌
+   - 익명함수 사용가능
+   - 호이스팅 안됨 -> 함수 정의전에 먼저 사용불가
+
+```
+// 선언식
+  function funcName () {
+    statements
+  }
+
+// 표현식
+  const funcName = function () {
+    statements
+  }
+```
+
+
