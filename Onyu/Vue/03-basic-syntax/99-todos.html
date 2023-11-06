@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .complated {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <h3>완료 항목</h3>
+    <div>{{ comletedTodos  }}</div>
+    <form>
+      <input v-model="newTodo">
+      <button @click.prevent="addTodo">Add Todo</button>
+    </form>
+
+    <ul>
+      <li v-for="todo in todos" :key="todo.id">
+        <span :class="{'complated': todo.isCompleted}">  {{ todo.text }}  </span>
+        <button @click="removeTodo(todo)">X</button>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp, ref, computed } = Vue
+
+    const app = createApp({
+      setup() {
+        let id = 0
+
+        const newTodo = ref(null)
+        const todos = ref([
+          { id: id++, text: 'Learn HTML', isCompleted: false },
+          { id: id++, text: 'Learn JS', isCompleted: true },
+          { id: id++, text: 'Learn Vue', isCompleted: false }
+        ])
+
+        const addTodo = function () {
+          const temp = { id: id++, text: newTodo.value, isCompleted: false }
+          todos.value.push(temp)
+          newTodo.value = ''
+        }
+
+        const removeTodo = function (todo) {
+          todos.value = todos.value.filter((td) => {
+            return todo !== td
+          })
+
+        }
+
+        const comletedTodos = computed(() => {
+          return todos.value.filter((todo) => {
+            return todo.isCompleted
+          })
+        })
+
+
+        return {
+          newTodo,
+          todos,
+          addTodo,
+          removeTodo,
+          comletedTodos
+
+        }
+      }
+    })
+
+    app.mount('#app')
+  </script>
+</body>
+
+</html>
