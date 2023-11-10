@@ -1,0 +1,69 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "rgUbhBXtoNiqdGxT_4WqwnLfOH4",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "FoIn_JzCr04KZgeF87Xp4Knpiyk",
+      "id": "OM6py-xHDr8",
+      "snippet": {
+        "publishedAt": "2023-11-01T01:01:29Z",
+        "channelId": "UC_XI3ByFO1uZIIH-g-zJZiw",
+        "title": "[다시보기] SSAFY 11기 온라인 모집설명회, 궁금하면 드루와",
+        "description": "지원서 제출 마감임박 11월 6일(월) 17시까지!!\n\n과연 11기 온라인 설명회에서는 무슨 일이 있었는지 궁금한 사람! 다 드루와\n\n좋댓구알~♥\n좋아요, 댓글, 구독, 알림설정은 사랑입니다♥\n\n=================================================\n\nSSAFY 11기 진행중인 Event!\n\n▶ Event 1. 인스타 소문내기 이벤트\n     SSAFY 11기 모집 소식을 @친구 에게 소문내주세요!\n     추첨을 통해 SSAFY 굿즈를 선물해드립니다\n\n     □ 이벤트 기간 : 2023년 10월 16(월) ~ 11월 6일(월)\n     □ 참여방법\n       ① @hellossafy 인스타 계정 팔로우\n       ② 소문내기 이벤트 게시물 댓글에 @친구 태그하고, SSAFY 11기 소문내기!\n       ③ 11기 모집 게시글을 리그램하면 당첨 확률 UP!\n\n▶ Event 2. 친구추천 이벤트\n     내 친구 중 SSAFY 11기 지원을 희망하는 친구를 찾아주세요\n\n     □ 이벤트 기간 : 2023년 10월 23(월) ~ 11월 6일(월)\n     □ 참여방법\n       ① SSAFY.com ▶ APPLY ▶ 추천하기 클릭\n       ② [카톡으로 공유하기] 클릭\n       ③ 카카오톡 채팅창으로 친구에게 추천인 코드 공유\n       ④ 공유받은 추천인 코드로 SSAFY.com 회원가입\n       ⑤ 친구가 SSAFY 11기 지원 완료하면 ♥이벤트 참여 완료♥\n   \n=================================================\n\n삼성 청년 SW 아카데미 11기 모집!\n□모집기간 : 2023년 10월 23(월) ~ 11월 6일(월)\n□지원방법 : 홈페이지(SSAFY.com)에서 신청 (PC만 가능)\n\n꿈을 현실로 만드는 시작을 함께 할 SSAFY인들을 찾습니다.\n\n지원하러 바로 가기 ▶ https://www.ssafy.com\n\n□ 타임라인\n03:19 SSAFY 소개\n21:45 SSAFY 프로젝트 : ICO\n27:29 싸피드~하게 풀어보는 FAQ\n36:45 실시간 Q&A\n\n지금 SSAFY.com에서 확인하세요!!\n\n#SSAFY #싸피 #청년 #11기 #모집 #알고리즘 #코딩 #자바 #파이썬\n#SW교육 #취업 #열정 #SW #소프트웨어 #개발자 #IT취업\n#취뽀하기 #취업성공 #삼성청년SW아카데미 #삼성전자 #삼성\n#함께가요미래로 #EnablingPeople\n\n◆ 홈페이지     :  http://www.ssafy.com\n◆ 페이스북     :  http://www.facebook.com/hellossafy\n◆ 인스타그램 :  http://www.instagram.com/hellossafy\n◆ 카카오톡 검색창에서 \"SSAFY\"와 친구가 되어주세요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OM6py-xHDr8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OM6py-xHDr8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OM6py-xHDr8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OM6py-xHDr8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OM6py-xHDr8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "삼성청년SW아카데미 Youtube채널 HELLOSSAFY",
+        "categoryId": "27",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "[다시보기] SSAFY 11기 온라인 모집설명회, 궁금하면 드루와",
+          "description": "지원서 제출 마감임박 11월 6일(월) 17시까지!!\n\n과연 11기 온라인 설명회에서는 무슨 일이 있었는지 궁금한 사람! 다 드루와\n\n좋댓구알~♥\n좋아요, 댓글, 구독, 알림설정은 사랑입니다♥\n\n=================================================\n\nSSAFY 11기 진행중인 Event!\n\n▶ Event 1. 인스타 소문내기 이벤트\n     SSAFY 11기 모집 소식을 @친구 에게 소문내주세요!\n     추첨을 통해 SSAFY 굿즈를 선물해드립니다\n\n     □ 이벤트 기간 : 2023년 10월 16(월) ~ 11월 6일(월)\n     □ 참여방법\n       ① @hellossafy 인스타 계정 팔로우\n       ② 소문내기 이벤트 게시물 댓글에 @친구 태그하고, SSAFY 11기 소문내기!\n       ③ 11기 모집 게시글을 리그램하면 당첨 확률 UP!\n\n▶ Event 2. 친구추천 이벤트\n     내 친구 중 SSAFY 11기 지원을 희망하는 친구를 찾아주세요\n\n     □ 이벤트 기간 : 2023년 10월 23(월) ~ 11월 6일(월)\n     □ 참여방법\n       ① SSAFY.com ▶ APPLY ▶ 추천하기 클릭\n       ② [카톡으로 공유하기] 클릭\n       ③ 카카오톡 채팅창으로 친구에게 추천인 코드 공유\n       ④ 공유받은 추천인 코드로 SSAFY.com 회원가입\n       ⑤ 친구가 SSAFY 11기 지원 완료하면 ♥이벤트 참여 완료♥\n   \n=================================================\n\n삼성 청년 SW 아카데미 11기 모집!\n□모집기간 : 2023년 10월 23(월) ~ 11월 6일(월)\n□지원방법 : 홈페이지(SSAFY.com)에서 신청 (PC만 가능)\n\n꿈을 현실로 만드는 시작을 함께 할 SSAFY인들을 찾습니다.\n\n지원하러 바로 가기 ▶ https://www.ssafy.com\n\n□ 타임라인\n03:19 SSAFY 소개\n21:45 SSAFY 프로젝트 : ICO\n27:29 싸피드~하게 풀어보는 FAQ\n36:45 실시간 Q&A\n\n지금 SSAFY.com에서 확인하세요!!\n\n#SSAFY #싸피 #청년 #11기 #모집 #알고리즘 #코딩 #자바 #파이썬\n#SW교육 #취업 #열정 #SW #소프트웨어 #개발자 #IT취업\n#취뽀하기 #취업성공 #삼성청년SW아카데미 #삼성전자 #삼성\n#함께가요미래로 #EnablingPeople\n\n◆ 홈페이지     :  http://www.ssafy.com\n◆ 페이스북     :  http://www.facebook.com/hellossafy\n◆ 인스타그램 :  http://www.instagram.com/hellossafy\n◆ 카카오톡 검색창에서 \"SSAFY\"와 친구가 되어주세요."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1H14M13S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "1890",
+        "likeCount": "16",
+        "favoriteCount": "0"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
